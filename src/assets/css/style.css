@@ -1,0 +1,140 @@
+
+nav{
+	padding-left: 30px;
+	padding-right: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 14px;
+    color: #70757a;
+	font-family: sans-serif;
+}
+nav img{
+	width: 5%;
+}
+nav button{
+	background-color: #4285F4;
+	padding: 7px 12px;
+	border-radius: 3px;
+	border: 1px solid #4285f4;
+	outline: none;
+	color: white;
+	cursor: pointer;
+}
+.nav1{
+	margin-left: 5px;
+	margin-right: auto;
+}
+.nav2{
+	margin-left: auto;
+}
+.sec1{
+	flex: 1;
+}
+.sec1 .logo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 22%;
+	display: block;
+}
+.sec1_1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px auto;
+	display: block;
+}
+.sec1_1 .search1{
+	width: 18px;
+	position: absolute;
+	margin-top: 14px;
+	left: 0%;
+}
+.sec1_1 .search2{
+	display: absolute;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 40%;
+	transition: box-shadow 100ms;
+	outline: none;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.sec1_1 .search2:hover{
+	border: 1px solid #fff;
+	box-shadow: 0px 1px 3px rgb(192, 185, 185)
+}
+.sec1_1 .search3{
+	width: 14px;
+	position: absolute;
+	margin-top: 14px;
+	left: 1%;
+}
+.sec1_1 .search4{
+	width: 20px;
+	position: absolute;
+	margin-top: 14px;
+	left: 1%;
+}
+.btn2{
+	padding: 12px 15px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	outline: none;
+	color: #3c4043;
+	cursor: pointer;
+	background-color: #f8f9fa;
+}
+.sec2{
+	text-align: center;
+}
+.footer{
+    display: flex;
+	position: absolute;
+	background-color: #f0f0f0;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.footer .f1 a, .footer .f3 a{
+	color: #5f6368;
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-decoration: none;
+}
+.footer .f1 a:hover, .footer .f2 a:hover{
+	text-decoration: underline;
+}
+.f1{
+	white-space: nowrap;
+	font-size: 14px;
+	color: #70757a;
+	padding: 7px;
+	font-family: sans-serif;
+}
+.f2{
+	margin: auto;
+}
+.f3{
+	white-space: nowrap;
+	font-size: 14px;
+	color: #70757a;
+	padding: 7px;
+	font-family: sans-serif;
+}
+.f2t1{
+	font-weight: normal;
+	font-size: 14px;
+	font-family: sans-serif;
+}
