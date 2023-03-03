@@ -27,12 +27,12 @@ export default function Store() {
   //     stores.name.toLowerCase().includes(searchResults.toLowerCase())
   //   );
   /////////////////////////////////////////////////
-  // const handleSearch = (searchText) => {
-  //   const filteredItems = stores.filter((item) =>
-  //     item.name.toLowerCase().includes(searchText.toLowerCase())
-  //   );
-  //   setSearchResults(filteredItems);
-  // };
+  const handleSearch = (searchText) => {
+    const filteredItems = stores.filter((item) =>
+      item.name.toLowerCase().includes(searchText.toLowerCase())
+    );
+    setSearchResults(filteredItems);
+  };
 
   // useEffect(() => {
   //   fetch(`https://jsonplaceholder.typicode.com/posts`)
@@ -74,12 +74,12 @@ export default function Store() {
       {/* use element of this file in some other file */}
       {/* <Search/> */}
 
-      {/* <SearchBar onSearch={handleSearch} />
+      <SearchBar onSearch={handleSearch} />
       <ul>
         {searchResults.map((result) => (
           <li key={result.id}>{result.name}</li>
         ))}
-      </ul> */}
+      </ul>
       {/* /////////////////////////// */}
       <form>
         <input
