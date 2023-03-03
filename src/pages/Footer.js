@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer' style={{position:"fixed"}}>
         <div className="f1">
 			<a href="#">Advertising</a>
 			<a href="#">Business</a>

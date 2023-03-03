@@ -1,22 +1,22 @@
 import React from 'react'
-export default function Body() {
+import LogoutButton from "./LogoutButton";
+import LoginButton from './LoginButton';
+import UserProfile from './UserProfile';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+  Link,
+  BrowserRouter,
+} from "react-router-dom";
+import "../assets/css/style.css"
+import Navbar from './Navbar';
+
+export default function Home() {
   return (
     <div>
-        <nav style={{display: "flex"}}>	
-		<div className="nav1">
-			<a href="#">About</a>
-			<a href="#" style={{paddingRight: "7px"}}>Store</a>
-		</div>	
-		<div className="nav2">
-			<a href="#" style={{paddingRight: "7px"}}>Gmail</a>
-			<a href="#" style={{paddingRight: "7px"}}>Images</a>
-			<img src={require('../assets/img/menu_icon.png')} style={{paddingRight: "7px", verticalAlign: "middle"}}/>
-			<button>Sign in</button>
-		</div>			
-			
-	</nav>
-	
-	<section className="sec1">
+		<section className="sec1">
 		<div>
 			<img src={require('../assets/img/google_logo_long.png')} className="logo" />
 		</div>
@@ -36,3 +36,4 @@ export default function Body() {
     </div>
   )
 }
+

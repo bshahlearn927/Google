@@ -1,20 +1,24 @@
-
-nav{
+nav {
 	padding-left: 30px;
 	padding-right: 0px;
 	margin-top: 15px;
 	margin-right: 0px;
+	height: 35px;
 }
-nav a{
+
+nav a {
 	text-decoration: none;
 	font-size: 14px;
-    color: #70757a;
+	color: #70757a;
 	font-family: sans-serif;
+	list-style-type: none;
 }
-nav img{
+
+nav img {
 	width: 5%;
 }
-nav button{
+
+.btn1 {
 	background-color: #4285F4;
 	padding: 7px 12px;
 	border-radius: 3px;
@@ -22,39 +26,60 @@ nav button{
 	outline: none;
 	color: white;
 	cursor: pointer;
+	margin-left: 15px;
 }
-.nav1{
+
+.nav1 {
 	margin-left: 5px;
 	margin-right: auto;
+	vertical-align: middle;
 }
-.nav2{
+
+.nav1 a {
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.nav2 {
 	margin-left: auto;
 }
-.sec1{
+
+.nav2 a,
+img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sec1 {
 	flex: 1;
 }
-.sec1 .logo{
+
+.sec1 .logo {
 	margin-left: auto;
 	margin-right: auto;
 	width: 22%;
 	display: block;
 }
-.sec1_1{
+
+.sec1_1 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px auto;
 	display: block;
 }
-.sec1_1 .search1{
+
+.sec1_1 .search1 {
 	width: 18px;
 	position: absolute;
 	margin-top: 14px;
 	left: 0%;
 }
-.sec1_1 .search2{
+
+.sec1_1 .search2 {
 	display: absolute;
 	border: 1px solid #ddd;
-	color: rgba(0,0,0, 0.87);
+	color: rgba(0, 0, 0, 0.87);
 	font-size: 16px;
 	padding: 13px;
 	padding-left: 45px;
@@ -66,23 +91,27 @@ nav button{
 	margin-right: auto;
 	overflow: hidden;
 }
-.sec1_1 .search2:hover{
+
+.sec1_1 .search2:hover {
 	border: 1px solid #fff;
 	box-shadow: 0px 1px 3px rgb(192, 185, 185)
 }
-.sec1_1 .search3{
+
+.sec1_1 .search3 {
 	width: 14px;
 	position: absolute;
 	margin-top: 14px;
 	left: 1%;
 }
-.sec1_1 .search4{
+
+.sec1_1 .search4 {
 	width: 20px;
 	position: absolute;
 	margin-top: 14px;
 	left: 1%;
 }
-.btn2{
+
+.btn2 {
 	padding: 12px 15px;
 	border-radius: 3px;
 	border: 1px solid transparent;
@@ -91,11 +120,13 @@ nav button{
 	cursor: pointer;
 	background-color: #f8f9fa;
 }
-.sec2{
+
+.sec2 {
 	text-align: center;
 }
-.footer{
-    display: flex;
+
+.footer {
+	display: flex;
 	position: absolute;
 	background-color: #f0f0f0;
 	padding: 10px;
@@ -105,7 +136,9 @@ nav button{
 	left: 0;
 	right: 0;
 }
-.footer .f1 a, .footer .f3 a{
+
+.footer .f1 a,
+.footer .f3 a {
 	color: #5f6368;
 	display: inline-block;
 	font-size: 14px;
@@ -113,28 +146,76 @@ nav button{
 	padding-right: 12px;
 	text-decoration: none;
 }
-.footer .f1 a:hover, .footer .f2 a:hover{
+
+.footer .f1 a:hover,
+.footer .f2 a:hover {
 	text-decoration: underline;
 }
-.f1{
+
+.f1 {
 	white-space: nowrap;
 	font-size: 14px;
 	color: #70757a;
 	padding: 7px;
 	font-family: sans-serif;
 }
-.f2{
+
+.f2 {
 	margin: auto;
 }
-.f3{
+
+.f3 {
 	white-space: nowrap;
 	font-size: 14px;
 	color: #70757a;
 	padding: 7px;
 	font-family: sans-serif;
 }
-.f2t1{
+
+.f2t1 {
 	font-weight: normal;
 	font-size: 14px;
 	font-family: sans-serif;
 }
+
+#circle-avatar {
+	display: grid;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #ffbd30;
+	place-items: center;
+}
+
+.btn3 {
+	align-self: center;
+	border-radius: 60%;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+
+.actimg {
+	width: 35px;
+	height: 35px;
+	border-radius: 60%;
+	position: absolute;
+}
+
+.menu1 {
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 30%;
+}
+
+/* .testing-a{
+	text-decoration: none;
+	font-size: 14px;
+    color: #70757a;
+	font-family: sans-serif;
+	display: inline;
+} */
+
